@@ -1,16 +1,16 @@
-# 📂 Arkiv - A File Library System
+# Arkiv - A File Library System
 
-A **full-stack** web application for managing, storing, and accessing a collection of PDF files. This project includes **user authentication**, a **file explorer**, and **search functionality**.
+A full-stack web application for managing, storing, and accessing a collection of PDF files. This project includes user authentication, a file explorer, and search functionality.
 
-## 🚀 Features
+## Features
 
-- 🔑 **User Authentication** (Register/Login)
-- 📁 **File Explorer** (View and navigate stored files)
-- 🔍 **Search Functionality** (Find files quickly)
-- 📜 **PDF Preview** (Preview files without downloading)
-- 🔒 **Secure API** with authentication middleware
+- **User Authentication** (Register/Login)
+- **File Explorer** (View and navigate stored files)
+- **Search Functionality** (Find files quickly)
+- **PDF Preview** (Preview files without downloading)
+- **Secure API** with authentication middleware
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Node.js** + **Express**
@@ -23,7 +23,7 @@ A **full-stack** web application for managing, storing, and accessing a collecti
 - **Redux** for state management
 - **React Router** for navigation
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 file-library-main/
@@ -40,16 +40,16 @@ file-library-main/
 │── README.md       # Project documentation 
 ```
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```sh
-git clone https://github.com/isawebapp/Arkiv.git
+git clone https://github.com/tonyliuzj/arkiv.git
 ```
 ```sh
-cd Arkiv
+cd arkiv
 ```
-### 2️⃣ Backend Setup
+### 2. Backend Setup
 
 ```sh
 cd backend
@@ -60,7 +60,7 @@ npm install
 ```sh
 npm start
 ```
-### 3️⃣ Frontend Setup
+### 3. Frontend Setup
 
 ```sh
 cd ../frontend
@@ -72,7 +72,7 @@ npm install
 npm start
 ```
 
-## 📜 API Endpoints
+## API Endpoints
 
 | Method | Endpoint           | Description             |
 |--------|-------------------|-------------------------|
@@ -81,15 +81,15 @@ npm start
 | GET    | /api/files         | Fetch all files         |
 | GET    | /api/files/:id     | Get a specific file     |
 
-## 🛠️ Future Enhancements
+## Future Enhancements
 
-- ✅ Drag & Drop File Uploads
-- ✅ User Role Management
-- ✅ Dark Mode Support
-- ✅ More File Formats (Images, Docs, etc.)
+- Drag & Drop File Uploads
+- User Role Management
+- Dark Mode Support
+- More File Formats (Images, Docs, etc.)
 
-## 📜 License
+## License
 This project is open-source under the MIT License.
 
-## Thanks:
+## Acknowledgments
 ChatGPT 4-o for Frontend and CSS
