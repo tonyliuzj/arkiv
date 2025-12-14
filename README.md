@@ -90,6 +90,3 @@ npm start
 
 ## License
 This project is open-source under the MIT License.
-
-## Acknowledgments
-ChatGPT 4-o for Frontend and CSS
